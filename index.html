@@ -9,7 +9,7 @@
 <link rel="canonical" href="https://firstclassestimating.com/">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 48 48%27%3E%3Crect width=%2748%27 height=%2748%27 rx=%279%27 fill=%27%2314181d%27/%3E%3Cpath d=%27M8 30 24 14l16 16%27 fill=%27none%27 stroke=%27%23f6c833%27 stroke-width=%276%27 stroke-linecap=%27round%27 stroke-linejoin=%27round%27/%3E%3C/svg%3E">
 <meta property="og:title" content="First Class Estimating | Roof Supplements for DFW Roofers">
-<meta property="og:description" content="The carrier's estimate came in short. We get the rest approved. You only pay when it is. First claim free.">
+<meta property="og:description" content="The carrier's estimate came in short. We get the rest approved. Your first supplement estimate is free.">
 <meta property="og:url" content="https://firstclassestimating.com/">
 <meta property="og:type" content="website">
 <meta name="theme-color" content="#14181d">
@@ -18,7 +18,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&family=Caveat:wght@600&display=swap" rel="stylesheet">
 <style>
-:root{--asphalt:#14181d;--slate:#28303a;--paper:#f4f5f2;--ink:#14181d;--mute:#55606b;--line:#d8dcd5;--tarp:#1b5fd1;--tarp2:#134aa6;--chalk:#f6c833}
+:root{--asphalt:#07090d;--slate:#11161e;--paper:#eef2f8;--ink:#07090d;--mute:#4f5b6b;--line:#d3dbe7;--tarp:#1f6bff;--tarp2:#0f4fd6;--chalk:#5fb0ff}
 *{box-sizing:border-box}
 html{scroll-behavior:smooth;scroll-padding-top:80px}
 body{margin:0;background:var(--paper);color:var(--ink);font:400 17px/1.6 Archivo,system-ui,sans-serif;-webkit-font-smoothing:antialiased;overflow-x:clip}
@@ -32,14 +32,19 @@ a:focus-visible,summary:focus-visible{outline:3px solid var(--chalk);outline-off
 .wrap{max-width:1160px;margin:0 auto;padding:0 clamp(18px,4vw,40px)}
 .sec{padding:clamp(64px,8vw,116px) 0}
 .intro{font-size:19px;color:var(--mute);margin-top:18px}
-.btn{display:inline-block;background:var(--tarp);color:#fff;font-weight:700;font-size:16.5px;line-height:1.2;padding:15px 22px;border-radius:6px;text-decoration:none}
-.btn:hover{background:var(--tarp2)}
-.btn.ghost{background:transparent;color:#fff;box-shadow:inset 0 0 0 2px rgba(255,255,255,.75)}
-.btn.ghost:hover{background:rgba(255,255,255,.12)}
-.btn.white{background:#fff;color:var(--tarp2)}
+.btn{display:inline-block;background:linear-gradient(180deg,#3a82ff,#1f6bff);color:#fff;font-weight:700;font-size:16.5px;line-height:1.2;padding:15px 22px;border-radius:8px;text-decoration:none;box-shadow:0 5px 0 #0b3fae,0 12px 24px rgba(31,107,255,.35);transform:translateY(0);transition:transform .12s,box-shadow .12s}
+.btn:hover{transform:translateY(-2px);box-shadow:0 7px 0 #0b3fae,0 16px 30px rgba(31,107,255,.45)}
+.btn:active{transform:translateY(4px);box-shadow:0 1px 0 #0b3fae,0 4px 10px rgba(31,107,255,.3)}
+.btn.ghost{background:rgba(255,255,255,.06);color:#fff;box-shadow:inset 0 0 0 2px rgba(255,255,255,.8),0 5px 0 rgba(0,0,0,.5)}
+.btn.ghost:hover{background:rgba(255,255,255,.14);box-shadow:inset 0 0 0 2px #fff,0 7px 0 rgba(0,0,0,.5)}
+.btn.white{background:#fff;color:var(--tarp2);box-shadow:0 5px 0 #b9c6dc,0 12px 24px rgba(0,0,0,.35)}
 .btn.small{padding:10px 16px;font-size:15px}
 .cta{display:flex;flex-wrap:wrap;gap:12px;align-items:center;margin-top:28px}
 
+.freebar{background:var(--tarp);color:#fff;text-align:center;font-size:15px;padding:9px 16px}
+.freebar b{text-decoration:underline;text-underline-offset:3px}
+.free{display:inline-block;background:var(--tarp);color:#fff;font-weight:800;font-size:15px;padding:7px 14px;border-radius:99px;box-shadow:0 4px 0 #0b3fae,0 10px 22px rgba(31,107,255,.45);margin-bottom:20px}
+b.blue{color:var(--tarp)}
 .nav{position:sticky;top:0;z-index:20;background:rgba(244,245,242,.95);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
 .nav .wrap{display:flex;align-items:center;gap:26px;height:68px}
 .brand{display:flex;align-items:center;gap:10px;margin-right:auto;color:var(--ink);text-decoration:none;font-stretch:70%;font-weight:800;font-size:23px;white-space:nowrap}
@@ -47,16 +52,16 @@ a:focus-visible,summary:focus-visible{outline:3px solid var(--chalk);outline-off
 .nav a.l:hover{color:var(--tarp)}
 .nav a.tel{font-weight:700}
 
-.hero{color:#fff;padding:clamp(56px,7vw,100px) 0 clamp(64px,8vw,112px);background:var(--asphalt) center/cover;background-image:linear-gradient(100deg,rgba(15,18,22,.94) 0%,rgba(15,18,22,.8) 46%,rgba(15,18,22,.5) 100%),url(https://images.unsplash.com/photo-1782274951165-b88199bde548?w=2000&q=70&auto=format&fit=crop)}
+.hero{color:#fff;padding:clamp(56px,7vw,100px) 0 clamp(64px,8vw,112px);background:var(--asphalt) center/cover;background-image:linear-gradient(100deg,rgba(5,7,11,.96) 0%,rgba(5,7,11,.84) 46%,rgba(8,30,80,.55) 100%),url(https://images.unsplash.com/photo-1782274951165-b88199bde548?w=2000&q=70&auto=format&fit=crop)}
 .hero .wrap{display:grid;grid-template-columns:minmax(0,1.08fr) minmax(0,.92fr);gap:clamp(28px,5vw,72px);align-items:center}
 .where{font-size:16px;color:#c5ced6;margin-bottom:18px}
 .hero .lede{font-size:19.5px;color:#e1e6ea;max-width:52ch;margin-top:22px}
 .call{margin:18px 0 0;font-size:16px;color:#c5ced6}
 .call a{color:#fff;font-weight:700}
-.sheetbox{position:relative;padding-top:46px}
+.sheetbox{position:relative;padding-top:46px;perspective:1400px}
 .note{position:absolute;top:0;right:8px;font:600 26px/1 Caveat,cursive;color:var(--chalk);transform:rotate(-4deg);white-space:nowrap}
 .note svg{width:34px;height:30px;vertical-align:-18px;margin-left:4px}
-.sheet{position:relative;margin:0;background:#fff;color:#1b1f24;padding:22px 22px 16px;box-shadow:0 30px 60px rgba(0,0,0,.5);transform:rotate(-1.3deg);font-size:13.5px;line-height:1.35;font-variant-numeric:tabular-nums}
+.sheet{position:relative;margin:0;background:#fff;color:#1b1f24;padding:22px 22px 16px;transform:rotateY(-14deg) rotateX(6deg) rotate(-1deg);transform-style:preserve-3d;box-shadow:-1px 1px 0 #d9dee6,-3px 3px 0 #c9d0db,-5px 5px 0 #b8c1ce,0 40px 70px rgba(0,0,0,.6),0 0 0 1px rgba(255,255,255,.4);border-radius:3px;font-size:13.5px;line-height:1.35;font-variant-numeric:tabular-nums}
 .sheet .top{display:flex;justify-content:space-between;align-items:baseline;gap:12px;border-bottom:2px solid #1b1f24;padding-bottom:8px}
 .sheet .top b{font-stretch:70%;font-weight:800;font-size:19px}
 .sheet .meta{display:grid;grid-template-columns:1fr 1fr;gap:2px 16px;margin:10px 0 12px;color:#4a525b;font-size:12.5px}
@@ -75,9 +80,9 @@ tr.add:nth-of-type(4) .circ path{animation-delay:.7s}
 tr.add:nth-of-type(6) .circ path{animation-delay:1.2s}
 tfoot .circ path{animation-delay:1.8s;stroke-width:2.6}
 @keyframes draw{to{stroke-dashoffset:0}}
-@media (prefers-reduced-motion:reduce){.circ path{animation:none;stroke-dashoffset:0}html{scroll-behavior:auto}}
+@media (prefers-reduced-motion:reduce){.circ path{animation:none;stroke-dashoffset:0}html{scroll-behavior:auto}.btn{transition:none}}
 
-.terms{background:#fff;border-bottom:1px solid var(--line)}
+.terms{background:#fff;border-bottom:1px solid var(--line);box-shadow:0 18px 40px rgba(7,9,13,.08);position:relative;z-index:2}
 .terms .wrap{display:grid;grid-template-columns:repeat(4,1fr)}
 .terms .wrap>div{padding:24px 20px;border-left:1px solid var(--line)}
 .terms .wrap>div:first-child{border-left:0;padding-left:0}
@@ -90,19 +95,19 @@ tfoot .circ path{animation-delay:1.8s;stroke-width:2.6}
 .about .sig{font:600 44px/1 Caveat,cursive;color:var(--tarp);margin:24px 0 6px}
 .about .who{font-size:15.5px;color:var(--mute)}
 .me{margin:0;position:sticky;top:96px}
-.me img{display:block;width:100%;height:auto;aspect-ratio:5/7;object-fit:cover;border-radius:4px;background:var(--slate)}
-.me figcaption{font-size:14.5px;color:var(--mute);margin-top:10px}
+.me img{display:block;width:100%;height:auto;aspect-ratio:5/7;object-fit:cover;border-radius:6px;background:var(--slate);box-shadow:14px 14px 0 var(--tarp),0 30px 50px rgba(7,9,13,.35)}
+.me figcaption{font-size:14.5px;color:var(--mute);margin-top:26px}
 .creds{margin:34px 0 0;border-top:2px solid var(--ink)}
 .creds div{display:flex;justify-content:space-between;gap:16px;padding:15px 0;border-bottom:1px solid var(--line)}
 .creds dt{color:var(--mute)}
 .creds dd{margin:0;font-weight:700;text-align:right}
-.about .promise{margin-top:22px;padding:18px 20px;background:#fff;border-left:4px solid var(--chalk);font-size:16px}
+.about .promise{margin-top:22px;padding:18px 20px;background:#fff;border-left:4px solid var(--tarp);font-size:16px;box-shadow:0 14px 30px rgba(7,9,13,.1)}
 
 .band{height:clamp(260px,36vw,440px);background:var(--slate) center 35%/cover;background-image:linear-gradient(0deg,rgba(15,18,22,.78),rgba(15,18,22,0) 62%),url(https://images.unsplash.com/photo-1633759593085-1eaeb724fc88?w=2000&q=70&auto=format&fit=crop);display:flex;align-items:flex-end}
 .band .wrap{width:100%}
 .band p{color:#fff;font-stretch:70%;font-weight:800;font-size:clamp(24px,3vw,38px);line-height:1.1;max-width:24ch;margin:0;padding-bottom:30px}
 
-.missed table{width:100%;border-collapse:collapse;margin-top:36px;background:#fff}
+.missed table{width:100%;border-collapse:collapse;margin-top:36px;background:#fff;box-shadow:0 24px 50px rgba(7,9,13,.1);border-radius:8px;overflow:hidden}
 .missed th{font-size:14px;color:var(--mute);font-weight:600;text-align:left;padding:13px 18px;border-bottom:2px solid var(--ink)}
 .missed td{padding:16px 18px;border-bottom:1px solid var(--line);vertical-align:top;font-size:16px}
 .missed td:first-child{font-weight:700;width:30%}
@@ -112,7 +117,7 @@ tfoot .circ path{animation-delay:1.8s;stroke-width:2.6}
 .how{background:#fff}
 .steps{list-style:none;margin:40px 0 0;padding:0;display:grid;grid-template-columns:repeat(4,1fr);counter-reset:s}
 .steps li{counter-increment:s;padding:22px 26px 0 0;border-top:2px solid var(--ink)}
-.steps li::before{content:counter(s);display:block;font-stretch:70%;font-weight:800;font-size:56px;line-height:1;color:var(--tarp);margin-bottom:12px}
+.steps li::before{content:counter(s);display:block;font-stretch:70%;font-weight:800;font-size:56px;line-height:1;color:var(--tarp);text-shadow:0 4px 0 #c9d7f2;margin-bottom:12px}
 .steps p{font-size:16px;color:#3d4650;margin-top:8px}
 .tag{display:inline-block;font:700 13px/1.5 Archivo,sans-serif;font-stretch:100%;letter-spacing:0;border:1.5px solid var(--ink);border-radius:99px;padding:0 9px;margin-left:8px;vertical-align:middle}
 .tag.us{background:var(--tarp);border-color:var(--tarp);color:#fff}
@@ -124,7 +129,7 @@ tfoot .circ path{animation-delay:1.8s;stroke-width:2.6}
 .stay ul{margin:22px 0 0;padding:0;list-style:none}
 .stay li{padding:13px 0;border-top:1px solid #333c46;color:#d5dce2}
 .stay li b{color:#fff}
-.thread{background:#fff;color:var(--ink);border-radius:8px;overflow:hidden;font-size:15px;line-height:1.5}
+.thread{background:#fff;color:var(--ink);border-radius:10px;overflow:hidden;box-shadow:0 0 0 1px rgba(95,176,255,.3),0 30px 60px rgba(0,0,0,.6),0 0 60px rgba(31,107,255,.25);transform:perspective(1200px) rotateY(-8deg);font-size:15px;line-height:1.5}
 .thread h3{font-stretch:100%;font-weight:700;font-size:15px;letter-spacing:0;padding:13px 18px;border-bottom:1px solid var(--line);background:#eceee9}
 .msg{padding:14px 18px;border-bottom:1px solid var(--line)}
 .msg small{display:block;color:var(--mute);font-size:13px;margin-bottom:3px}
@@ -134,13 +139,13 @@ tfoot .circ path{animation-delay:1.8s;stroke-width:2.6}
 
 .rows{margin-top:36px;border-top:2px solid var(--ink)}
 .row{display:grid;grid-template-columns:1.1fr .9fr 1.4fr;gap:20px;align-items:baseline;padding:22px 0;border-bottom:1px solid var(--line)}
-.row .amt{font-stretch:70%;font-weight:800;font-size:46px;line-height:1}
+.row .amt{font-stretch:70%;font-weight:800;font-size:46px;line-height:1;color:var(--tarp);text-shadow:0 3px 0 #c9d7f2}
 .row .amt small{font-size:17px;font-weight:600;font-stretch:100%;color:var(--mute)}
 .row p{margin:0;color:#3d4650}
 .deal{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(28px,6vw,84px);margin-top:48px;align-items:start}
 .deal ul{margin:14px 0 0;padding:0;list-style:none}
 .deal li{padding:11px 0;border-bottom:1px solid var(--line)}
-.ledger{background:#fff;border:1px solid var(--line);padding:22px 24px 16px;font-variant-numeric:tabular-nums}
+.ledger{background:#fff;border:1px solid var(--line);border-radius:10px;box-shadow:0 6px 0 #c6d2e4,0 26px 50px rgba(7,9,13,.14);padding:22px 24px 16px;font-variant-numeric:tabular-nums}
 .ledger h3{margin-bottom:10px}
 .ledger div{display:flex;justify-content:space-between;gap:16px;padding:10px 0;border-bottom:1px solid var(--line)}
 .ledger .keep{border:0;border-top:2px solid var(--ink);font-weight:800;font-size:22px}
@@ -158,8 +163,8 @@ summary::after{content:"+";position:absolute;right:4px;top:12px;font-size:28px;f
 details[open] summary::after{content:"–"}
 details p{padding:0 0 18px;color:#3d4650}
 
-.final{background:var(--tarp);color:#fff}
-.final p{font-size:19px;margin-top:16px;color:#e4edff}
+.final{background:radial-gradient(900px 400px at 20% 0,rgba(31,107,255,.45),transparent 70%),var(--asphalt);color:#fff}
+.final p{font-size:19px;margin-top:16px;color:#dbe6ff}
 .final .btn.ghost{box-shadow:inset 0 0 0 2px #fff}
 footer{background:var(--asphalt);color:#aeb7c0;font-size:14.5px;padding:38px 0 46px}
 footer .wrap{display:grid;grid-template-columns:1.2fr 1fr;gap:30px}
@@ -171,6 +176,7 @@ footer p{margin:0 0 8px}
 .nav a.l:not(.tel){display:none}
 .hero .wrap,.about .wrap,.stay .wrap,.deal,.faq .wrap,footer .wrap{grid-template-columns:1fr}
 .sheet{transform:none}
+.thread{transform:none}
 .me{position:static;max-width:340px}
 .terms .wrap{grid-template-columns:1fr 1fr}
 .terms .wrap>div{padding:18px 16px;border-top:1px solid var(--line)}
@@ -197,6 +203,7 @@ footer p{margin:0 0 8px}
 </head>
 <body>
 
+<div class="freebar">Your <b>first supplement estimate is free</b>. Send us a claim and see the work before you pay a dime.</div>
 <nav class="nav" aria-label="Main"><div class="wrap">
   <a class="brand" href="#top"><svg width="30" height="22" viewBox="0 0 30 22" aria-hidden="true"><path d="M3 18 15 5l12 13" fill="none" stroke="#1b5fd1" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/></svg>First Class Estimating</a>
   <a class="l" href="#how">How it works</a>
@@ -209,9 +216,10 @@ footer p{margin:0 0 8px}
 
 <header class="hero" id="top"><div class="wrap">
   <div>
+    <span class="free">Your first estimate is free</span>
     <p class="where">Roof supplements for Dallas-Fort Worth roofing contractors</p>
     <h1>The carrier's estimate came in short. We get the rest approved.</h1>
-    <p class="lede">Send us the claim file. We write the supplement line by line in Xactimate, get it to the carrier within 48 hours, and stay on the adjuster until there's a decision. You pay 12% of the increase, and only if there is one.</p>
+    <p class="lede">Send us the claim file. We write the supplement line by line in Xactimate, get it to the carrier within 48 hours, and stay on the adjuster until there's a decision. You pay 12% of the increase, and only if there is one. <b>Your first supplement estimate is free.</b></p>
     <div class="cta">
       <a class="btn" href="https://calendar.google.com/calendar/appointments/schedules/AcZssZ2eZKs5iaYBO2v4d_wOhaYBTxqv8o8Hd7FkvcuwhNYvB_7mWJXbXt_gDBHT7DcD480tMjJRXYh1">Book a 15-minute call</a>
       <a class="btn ghost" href="https://docs.google.com/forms/d/1NCjumZPr5nR7A8Nbk264UvcyFuNgF7rJyPsn8VSvV7k/viewform">Send us a claim</a>
@@ -248,7 +256,7 @@ footer p{margin:0 0 8px}
 <div class="terms" aria-label="The deal"><div class="wrap">
   <div><b>$0</b><span>to get started</span></div>
   <div><b>48 hours</b><span>to submit a complete file</span></div>
-  <div><b>First claim free</b><span>so you can see the work</span></div>
+  <div><b class="blue">First estimate free</b><span>so you can see the work</span></div>
   <div><b>12%</b><span>of the increase, only if approved</span></div>
 </div></div>
 
@@ -256,14 +264,14 @@ footer p{margin:0 0 8px}
   <figure class="me"><img src="omar-khan.jpg" alt="Omar Khan, owner of First Class Estimating" width="800" height="1120"><figcaption>Omar Khan, owner</figcaption></figure>
   <div>
     <h2>I'm Omar Khan. I've been on your side of the claim.</h2>
-    <p>I've been roofing in Dallas-Fort Worth for four years, and I've run my own roofing company for the last two. I'm also a licensed adjuster and Xactimate Level 2 certified.</p>
+    <p>I'm a Dallas-Fort Worth roofing contractor, a licensed adjuster, and Xactimate Level 2 certified.</p>
     <p>So I've lived what every storm roofer here knows. The carrier's first estimate comes in short. The supplement sits for weeks. And somebody on your team burns hours chasing an adjuster when they should be selling roofs.</p>
     <p>I started First Class Estimating to be the supplement team I always wanted behind my own claims. I know the roof, I know the estimate, and I know how an adjuster reads a supplement. Your files go in clean and documented, and we stay on them until the money is approved.</p>
     <p class="sig">Omar Khan</p>
     <p class="who">Owner, First Class Estimating. Call or text <a href="tel:4699717460">469-971-7460</a>.</p>
     <dl class="creds">
-      <div><dt>Roofing in DFW</dt><dd>4 years</dd></div>
-      <div><dt>Running my own roofing company</dt><dd>2 years</dd></div>
+      <div><dt>Roofing</dt><dd>DFW contractor</dd></div>
+      <div><dt>First supplement estimate</dt><dd class="blue"><b class="blue">Free</b></dd></div>
       <div><dt>Adjuster</dt><dd>Licensed</dd></div>
       <div><dt>Xactimate</dt><dd>Level 2 certified</dd></div>
       <div><dt>Where we work</dt><dd>Texas claims, any carrier</dd></div>
@@ -328,7 +336,7 @@ footer p{margin:0 0 8px}
 
 <section class="sec" id="pricing"><div class="wrap">
   <h2>You pay when you win.</h2>
-  <p class="intro">No retainer, no setup fee, no monthly fee, no contract term.</p>
+  <p class="intro">No retainer, no setup fee, no monthly fee, no contract term. <b class="blue">Your first supplement estimate is free.</b></p>
   <div class="rows">
     <div class="row"><h3>Supplement</h3><div class="amt">12% <small>of the increase</small></div><p>Your team handles the inspection with our checklist. This is what most roofers use.</p></div>
     <div class="row"><h3>Supplement + inspection</h3><div class="amt">15% <small>of the increase</small></div><p>We do the inspection and the supplement.</p></div>
@@ -338,7 +346,7 @@ footer p{margin:0 0 8px}
     <div>
       <h3>The terms, plainly</h3>
       <ul>
-        <li><b>Your first claim is free.</b> One claim, start to finish, on us.</li>
+        <li><b class="blue">Your first estimate is free.</b> One claim, start to finish, on us.</li>
         <li><b>No increase, no fee.</b> If the supplement is denied you owe nothing for it.</li>
         <li><b>We invoice after the carrier decides.</b> Due 14 days from approval.</li>
         <li><b>Pay by Zelle.</b> Details are on every invoice.</li>
@@ -359,7 +367,7 @@ footer p{margin:0 0 8px}
 
 <section class="sec audit" id="audit"><div class="wrap">
   <h2>Send one carrier estimate. We'll show you what it's missing.</h2>
-  <p>Email us a recent carrier estimate. Photos or the measurement report help. Within two business days we'll send back the line items the carrier left off and a rough dollar range. It's free, and you keep it either way.</p>
+  <p>Email us a recent carrier estimate. Photos or the measurement report help. Within two business days we'll send back the line items the carrier left off and a rough dollar range. It's free, and you keep it either way. And when you send us a real claim, <b>your first supplement estimate is free too.</b></p>
   <div class="cta"><a class="btn" href="mailto:firstclassestimating@gmail.com?subject=Missed%20Money%20Audit">Email your estimate</a><span>firstclassestimating@gmail.com</span></div>
 </div></section>
 
@@ -373,6 +381,7 @@ footer p{margin:0 0 8px}
     <details><summary>Do you ever talk to my homeowners?</summary><p>Never. Your customers stay yours. We work only with you and the carrier.</p></details>
     <details><summary>Do you use Xactimate?</summary><p>Yes. Estimates are written line by line in the Xactimate format carriers use, priced on the current Texas price list.</p></details>
     <details><summary>How fast do you turn a claim around?</summary><p>We submit within 48 hours of a complete file. How fast the carrier decides is up to the carrier, which is why we stay on the adjuster until there's an answer.</p></details>
+    <details><summary>Is the first estimate really free?</summary><p><b>Yes.</b> Your first supplement estimate costs nothing, start to finish, whatever the carrier approves. We just ask to use it as a case study with the homeowner's details removed.</p></details>
     <details><summary>What if the supplement gets denied?</summary><p>You don't owe us anything for that claim.</p></details>
     <details><summary>What about a partial approval?</summary><p>We keep pushing for the items that weren't approved and invoice once the carrier's decision is final.</p></details>
     <details><summary>How do I pay?</summary><p>By Zelle. Every invoice has the details and is due 14 days after the approval.</p></details>
@@ -383,8 +392,8 @@ footer p{margin:0 0 8px}
 </div></section>
 
 <section class="sec final"><div class="wrap">
-  <h2>Let's get your first claim in. It's on us.</h2>
-  <p>Grab 15 minutes, send your first claim, and we'll take it from there.</p>
+  <h2>Your first estimate is free. Let's get it in.</h2>
+  <p><b>No cost on your first supplement estimate.</b> Grab 15 minutes, send your first claim, and we'll take it from there.</p>
   <div class="cta">
     <a class="btn white" href="https://calendar.google.com/calendar/appointments/schedules/AcZssZ2eZKs5iaYBO2v4d_wOhaYBTxqv8o8Hd7FkvcuwhNYvB_7mWJXbXt_gDBHT7DcD480tMjJRXYh1">Book a 15-minute call</a>
     <a class="btn ghost" href="https://docs.google.com/forms/d/1NCjumZPr5nR7A8Nbk264UvcyFuNgF7rJyPsn8VSvV7k/viewform">Send us a claim</a>
